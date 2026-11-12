@@ -1,0 +1,38 @@
+# ==============================================================================
+# CrisisConnect .gitignore
+# ==============================================================================
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+
+# Node / Frontend Artifacts
+client/node_modules/
+client/dist/
+client/.vite/
+client/*.local
+client/tsconfig.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java / Maven Artifacts
+server/target/
+server/.mvn/timing.properties
+server/*.log
+
+# Environment & Secret Files
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Temporary files & crash logs
+*.tmp
+*.bak
